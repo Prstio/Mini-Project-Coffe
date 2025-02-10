@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GramaSphare</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body>
+
+  <countainer class="pt-20"> <!-- Padding top untuk menghindari overlap dengan navbar -->
+    <!-- Navbar -->
+    <header class="fixed top-0 w-full flex justify-between items-center h-20 bg-green-950 px-33 z-50 shadow-md">
+      <img class="h-16 w-auto" src="logo-Grama.jpg" alt="Logo-GramaSphare">
+  
+      <nav class="flex gap-6 text-white">
+        <a href="#" class="hover:text-amber-500 transition duration-300">About Us</a>
+        <a href="#" class="hover:text-amber-500 transition duration-300">Menu</a>
+        <a href="#" class="hover:text-amber-500 transition duration-300">Instagram</a>
+        <a href="#" class="hover:text-amber-500 transition duration-300">FAQ</a>
+      </nav>
+  
+      <button class="px-4 py-2 text-white bg-amber-900 rounded-full hover:bg-amber-800 transition duration-300">
+        Learning Center
+      </button>
+    </header>
+  </countainer>
+
+    <!-- Swiper Container -->
+    <swiper-container class="mySwiper max-w-[1248px] mx-auto my-24 h-96" pagination="true" navigation="true" loop="true">
+      <!-- Slide 1 -->
+      <swiper-slide class="flex justify-center items-center ">
+        <img src="bener-ceria.png" alt="Slide 1" class="w-auto h-50 rounded-lg shadow-lg">
+      </swiper-slide>
+      <!-- Slide 2 -->
+      <swiper-slide class="flex justify-center items-center">
+        <img src="bener-coffe.png" alt="Slide 2" class="w-auto h-50 rounded-lg shadow-lg">
+      </swiper-slide>
+      <!-- Slide 3 -->
+      <swiper-slide class="flex justify-center items-center">
+        <img src="bener-cerah.png" alt="Slide 3" class="w-auto h-50 rounded-lg shadow-lg">
+      </swiper-slide>
+    </swiper-container>
+
+    <!-- Swiper Element JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <!-- /Swiper Elemen JS -->
+
+    <section class="container mx-auto p-4 -mt-10 px-24 bg-gray-50 rounded-lg">
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <h1 class="m-10 text-3xl mx-auto">Crafted with passion, brewed with precision.</h1>
+          <p class="text-justify -mr-10" >Point Coffee merupakan brand spesialisasi kopi dengan konsep “Made to Order” yang menyajikan Fresh Quality Coffee. Dengan menggunakan 100% biji kopi asli Indonesia yang disajikan oleh barista terlatih dengan mesin kopi standar internasional. Berdiri sejak tahun 2016, dan kini sudah hadir tersedia di lebih dari 1.200 outlet di seluruh Indonesia untuk mempermudah Point People menjangkau Point Coffee</p>
+          <button class="hover:bg-green-600 focus:outline-2 focus:outline-offset-2 focus:outline-green-500 active:bg-green-700 border-2 px-5 mt-9 rounded-full">
+            <div class="flex items-center p-2">
+              <span class=" items-center -mt-0.5">Lihat Selengkapnya</span>
+            </div>
+          </button>
+        </div>
+
+        <div class="container">
+          <img class="w-50 h-50 mx-auto" src="foto-coffe.png" alt="foto-coffe">
+        </div>
+
+      </div>
+    </section>
+    
+    <div class="container mx-auto p-4 mt-1">
+      <div class="bungkus">
+        <div class="text-center">
+          <h1 class="text-3xl font-bold text-gray-800">Explore Your Milks</h1>
+          <p class="text-gray-600 mt-2">A drink the 'GramaSphere' bottled brews range OR grab one of our delicious coffee's</p>
+        </div>
+        <br>
+
+        <div class="container mx-auto px-4">
+          <div class="flex justify-center">
+            <div class="w-full max-w-5xl">
+              <div class="grid grid-cols-4 gap-4 p-4">
+                <!-- Kolom 1 -->
+                <a href="https://www.instagram.com/p/DFxGJyDpeDr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="hover:bg-amber-900 transition duration-300 p-2 rounded-lg">
+                  <img class="w-full h-auto rounded-xl " src="Main-corse.jpg" alt="Main-corse">
+                  <h2 class="text-xl font-bold text-gray-800 text-center mt-1 ">Main Course</h2>
+                </a>
+        
+                <!-- Kolom 2 -->
+                <a href="https://www.instagram.com/p/DCEjoZoSoXu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="hover:bg-amber-900 transition duration-300 p-2 rounded-lg">
+                  <img class="w-full h-auto rounded-xl " src="Appetizer.jpg" alt="Appetizer">
+                  <h2 class="text-xl font-bold text-gray-800 text-center mt-1 ">Appetizer</h2>
+                </a>
+        
+                <!-- Kolom 3 -->
+                <a href="https://www.instagram.com/p/DBlfsyFSpTt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="hover:bg-amber-900 transition duration-300 p-2 rounded-lg">
+                  <img class="w-full h-auto rounded-xl " src="Pasta.jpg" alt="Pasta">
+                  <h2 class="text-xl font-bold text-gray-800 text-center mt-1 ">Pasta</h2>
+                </a>
+        
+                <!-- Kolom 4 -->
+                <a href="https://www.instagram.com/p/DFhq5oDSYve/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="hover:bg-amber-900 transition duration-300 p-2 rounded-lg">
+                  <img class="w-full h-auto rounded-xl " src="Desert.jpg" alt="Desert">
+                  <h2 class="text-xl font-bold text-gray-800 text-center mt-1 ">Desert</h2>
+                </a>
+        
+                <!-- Kolom 5 -->
+                <a href="https://www.instagram.com/p/DFhq5oDSYve/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="hover:bg-amber-900 transition duration-300 p-2 rounded-lg">
+                  <img class="w-full h-auto rounded-xl " src="Espresso-Bassed.jpg" alt="Espresso-Bassed">
+                  <h2 class="text-xl font-bold text-gray-800 text-center mt-1 ">Espresso Bassed</h2>
+                </a>
+        
+                <!-- Kolom 6 -->
+                <a href="https://www.instagram.com/p/DFhq5oDSYve/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="hover:bg-amber-900 transition duration-300 p-2 rounded-lg">
+                  <img class="w-full h-auto rounded-xl " src="Milk-Bassed.jpg" alt="Milk-Bassed">
+                  <h2 class="text-xl font-bold text-gray-800 text-center mt-1 ">Milk Bassed</h2>
+                </a>
+        
+                <!-- Kolom 7 -->
+                <a href="https://www.instagram.com/p/DFhq5oDSYve/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="hover:bg-amber-900 transition duration-300 p-2 rounded-lg">
+                  <img class="w-full h-auto rounded-xl " src="Light-gramma.jpg" alt="Light-gramma">
+                  <h2 class="text-xl font-bold text-gray-800 text-center mt-1 ">Light gramma</h2>
+                </a>
+        
+                <!-- Kolom 8 -->
+                <a href="https://www.instagram.com/p/DFhq5oDSYve/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="hover:bg-amber-900 transition duration-300 p-2 rounded-lg">
+                  <img class="w-full h-auto rounded-xl " src="Mock-Gramma-Tail.jpg" alt="Mock-Gramma-Tail">
+                  <h2 class="text-xl font-bold text-gray-800 text-center mt-1 ">Mock Gramma Tail</h2>
+                </a>
+        
+                <!-- Dua Gambar Terakhir di Tengah -->
+                <div class="col-span-4 flex justify-center gap-4">
+                  <a href="https://www.instagram.com/p/DFhq5oDSYve/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="hover:bg-amber-900 transition duration-300 p-2 rounded-lg">
+                    <img class="w-55 h-auto rounded-xl " src="Filter-Coffe.jpg" alt="Filter-Coffe">
+                    <h2 class="text-xl font-bold text-gray-800 text-center mt-1 ">Filter Coffe</h2>
+                  </a>
+        
+                  <a href="https://www.instagram.com/p/DFhq5oDSYve/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="hover:bg-amber-900 transition duration-300 p-2 rounded-lg">
+                    <img class="w-55 h-auto rounded-xl " src="Blended.jpg" alt="Blended">
+                    <h2 class="text-xl font-bold text-gray-800 text-center mt-1 ">Blended</h2>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <br><br><br>
+
+    <div class="container mx-auto px-6 sm:px-6 lg:px-12">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 justify-center">
+        <!-- Kolom 1: Logo dan Deskripsi -->
+        <div class="flex flex-col items-center md:items-start -ml-9">
+          <div class="flex items-center gap-0.5">
+            <img class="h-20 w-auto mb-4" src="logo-Grama.jpg" alt="Logo-GramaSphare" />
+          </div>
+          <div class="text-center md:text-left mr-3">
+            Temukan postingan dan info terbaru lewat Instagram GramaSphare
+          </div>
+          <button class="mt-2 hover:bg-green-600 focus:outline-2 focus:outline-offset-2 focus:outline-green-500 active:bg-green-700 border-2 px-5 py-2 transition-colors">
+            <div class="flex items-center">
+              <a href="https://www.instagram.com/gramasphere/" target="_blank" class="py-1.5 px-1">
+                <img src="//jiwagroup.com/assets/img/icon-ig.svg" alt="Instagram-Icon" class="w-6 h-6" />
+              </a>
+              <span class="text-gray-700 px-2">Instagram</span>
+            </div>
+          </button>
+        </div>
+    
+        <!-- Kolom 2: Grid Gambar -->
+        <div class="col-span-1 md:col-span-3">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-0.5">
+            <!-- Kolom 1 -->
+            <a href="https://www.instagram.com/p/DFxGJyDpeDr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="hover:bg-amber-300 transition duration-300  overflow-hidden">
+              <img class="w-full h-auto" src="maker-coffe.jpg" alt="Instagram" />
+            </a>
+    
+            <!-- Kolom 2 -->
+            <a href="https://www.instagram.com/p/DCEjoZoSoXu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="hover:bg-amber-800 transition duration-300 overflow-hidden">
+              <img class="w-full h-auto" src="Sweet-Sumer.jpg" alt="Instagram" />
+            </a>
+    
+            <!-- Kolom 3 -->
+            <a href="https://www.instagram.com/p/DBlfsyFSpTt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="hover:bg-amber-600 transition duration-300 overflow-hidden">
+              <img class="w-full h-auto" src="food-menu.jpg" alt="Instagram" />
+            </a>
+    
+            <!-- Kolom 4 -->
+            <a href="https://www.instagram.com/p/DFhq5oDSYve/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="hover:bg-amber-800 transition duration-300 overflow-hidden">
+              <img class="w-full h-auto" src="person-coffe.jpg" alt="Instagram" />
+            </a>
+    
+            <!-- Kolom 5 -->
+            <a href="https://www.instagram.com/p/DB6KYPdSGWj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="hover:bg-amber-800 transition duration-300 overflow-hidden">
+              <img class="w-full h-auto" src="backdrop.jpg" alt="Instagram" />
+            </a>
+    
+            <!-- Kolom 6 -->
+            <a href="https://www.instagram.com/p/DBqlZgTTXsC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="hover:bg-amber-800 transition duration-300 overflow-hidden">
+              <img class="w-full h-auto" src="kidz-meal.jpg" alt="Instagram" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-8xl mx-auto">
+        <!-- Bagian FAQ -->
+        <div class="text-center md:text-left mt-7">
+          <h1 class="mt-4 mb-2.5 text-2xl font-bold">FAQ (Frequently Asked Questions)</h1>
+          <p class="text-gray-600 mr-9 text-justify">
+            Point People ingin mendapatkan jawaban tanpa menunggu? Berikut beberapa daftar pertanyaan umum yang sering diajukan untuk membantu Point People menemukan jawaban dengan cepat. Yuk, cek di FAQ untuk menemukan informasi yang kamu cari!
+          </p>
+
+          <button class="hover:bg-green-600 focus:outline-2 focus:outline-offset-2 focus:outline-green-500 active:bg-green-700 border-2 px-5 mt-4 rounded-full">
+            <div class="flex items-center p-2">
+              <span class=" items-center -mt-0.5">Lihat selengkapnya</span>
+            </div>
+          </button>
+          
+        </div>
+    
+        <!-- Gambar FAQ -->
+        <div>
+          <img class="w-xl h-auto" src="Faq.png" alt="FAQ Image">
+        </div>
+    
+        <!-- Gambar Newsletter -->
+        <div>
+          <img class="w-full max-w-xl h-auto rounded-xl" src="Faq-2.jpg" alt="Newsletter Image">
+        </div>
+    
+        <!-- Bagian Newsletter -->
+        <div class="text-center md:text-left mt-20">
+          <h1 class="text-2xl font-bold">Dapatkan Informasi Terbaru</h1>
+          <p class="text-gray-600 mt-2">
+            Dapatkan informasi tentang promo dan berita terbaru dengan berlangganan newsletter kami. Jangan lewatkan update menarik dari kami!
+          </p>
+
+          <button class="hover:bg-green-600 focus:outline-2 focus:outline-offset-2 focus:outline-green-500 active:bg-green-700 border-2 px-5 mt-4 rounded-full">
+            <div class="flex items-center p-2">
+              <span class=" items-center -mt-0.5">Lihat selengkapnya</span>
+            </div>
+          </button>
+
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="w-full bg-green-950 text-white">
+      <section class="container mx-auto p-4 mt-8">
+          <div class="grid grid-cols-4 gap-4">
+            <div class="container">
+              <div class="logo-janji-group">
+                <img class="h-fit w-18 mb-2.5" src="logo-Grama.jpg" alt="gambar-logo-grama" />
+                <div class="contact">
+                  <strong>Hubungi kami</strong>
+
+                  <div class="flex items-center gap-2 ">
+                    <!-- Ikon Email (Font Awesome) -->
+                    <i class="fa-solid fa-envelope text-white text-xl mt-1.5"></i>
+                    <!-- Teks Email -->
+                    <div>
+                      <a href="mailto:GramaSphere.co.id" class="text-white transition duration-300">
+                        GramaSphere.co.id
+                      </a>
+                    </div>
+                  </div>
+                  
+                  <!-- Alamat -->
+                  <div class="flex items-center gap-2 ">
+                    <!-- Ikon Lokasi (Font Awesome) -->
+                    <i class="fa-solid fa-location-dot text-white text-xl -mt-9 pl-0.5"></i>
+                    <!-- Teks Alamat -->
+                    <div class="text-white text-justify mt-3 pl-1">
+                      Jl. Sei Serayu No.54, Babura Sunggal, Kec. Medan Sunggal, Kota Medan, Sumatera Utara 20154
+                    </div>
+                  </div>
+      
+                  <br>
+                  <br>
+      
+                  <div class="flex items-center gap-5">
+                    <div class="grid grid-cols-2 gap-7">
+                      <div class="p-1">
+                          <strong>Ikutin Kami </strong>
+                      </div>
+
+                      <div class=" flex justify-center items-center ">
+                        <a href="https://www.instagram.com/gramasphere/" target="_blank"
+                          class="hover:bg-amber-900 focus:outline-2 focus:ring-2 focus:ring-white border-2 border-white text-white px-5 py-2 flex items-center gap-2 transition duration-300">
+                          
+                          <!-- Ikon Font Awesome -->
+                          <i class="fa-brands fa-instagram text-white text-xl"></i>
+                                  
+                          <!-- Teks Instagram -->
+                          <span class="text-white text-lg">Instagram</span>
+                        </a>
+                      </div>
+                      
+                      <!-- <button class="hover:bg-green-600 focus:outline-2 focus:outline-offset-2 focus:outline-green-500 active:bg-green-700 border-2 px-5">
+                          <div class="flex items-center">
+                            <a href="https://www.instagram.com/gramasphere/" target="_blank" class="py-1.5 px-1">
+                              <img src="//jiwagroup.com/assets/img/icon-ig.svg" alt="Instagram-Icon" class="w-6 h-6 ">
+                            </a>
+                            <span class="text-white items-center px-2 -mt-1">Instagram</span>
+                          </div>
+                      </button> -->
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class=" countainer px-16">
+              <div class="-mt-1.5">
+                <h1 class="countainer text-2xl font-bold mb-3.5 p-2">Products</h1>
+                <div class="p-2">
+                  <a href=""> Main Course </a> <br>
+                  <a href=""> Appetizer </a> <br>
+                  <a href=""> Pasta </a> <br>
+                  <a href=""> Desert </a> <br>
+                  <a href=""> Espresso Bassed </a> <br>
+                  <a href=""> Milk Bassed </a> <br>
+                  <a href=""> Light Grama </a> <br>
+                  <a href=""> Mock * Grama * Tail </a> <br>
+                  <a href=""> Filter coffe </a> <br>
+                  <a href=""> Blended </a> <br>
+                </div>
+              </div>
+            </div>
+      
+            <div class="countainer px-20" >
+              <div class="-mt-1.5">
+                <h1 class="countainer text-2xl font-bold mb-3.5 p-2">Informations</h1>
+                <div class="p-2">
+                  <a href=""> About Us </a> <br>
+                  <a href=""> Menu </a> <br>
+                  <a href=""> Instagram </a> <br>
+                  <a href=""> FAQ </a> <br>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="countainer px-24" >
+              <div class="-mt-1.5">
+                <h1 class="countainer text-2xl font-bold mb-3.5 p-2">Contact Us</h1>
+                <div class="p-2">
+                  <a href="GramaSphere.co.id"> GramaSphere.co.id </a>
+                  <p>click here :</p>
+                  <div>
+                    <div class="class">whatssap</div>
+                    <div class="class">instagram</div>
+                    <div class="class">tiktok</div>
+                    <div class="class">Youtube</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </section>
+      <div class="w-full bg-gray-200">      
+        <div class="container text-center mx-auto text-black">
+          <p>© 2025 Jiwa Group. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
